@@ -1,6 +1,9 @@
 var express 	= require('express');
 var fs 		= require('fs');
-var app 	= express();
+// the following line is the new, recommended way to invoke express, but it crashes on heroku
+// var app 	= express();
+// this is the old way
+var app		= express.createServer();
 
 app.get('/', function(request, response) {
     var body_view = fs.readFileSync('./index.html', 'ascii' ,function(err, data) {
