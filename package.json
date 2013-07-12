@@ -1,7 +1,7 @@
 {
-  "name": "node-js-sample",
+  "name": "bitstarter",
   "version": "0.0.1",
-  "description": "a sample node.js app for heroku",
+  "description": "A crowdsourcing site that takes Bitcoin",
   "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,13 +15,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "https://github.com/bfontecc/bitstarter"
   },
   "keywords": [
     "node",
-    "heroku"
+    "heroku",
+    "bitcoin",
+    "encryption",
+    "client-side",
+    "aes",
+    "rijndael",
+    "plausible deniability",
+    "storage",
+    "drop",
+    "secure",
+    "box",
+    "trade secrets",
+    "protect",
+    "hipaa",
+    "anonymous"
   ],
-  "author": "Mark Pundsack",
-  "license": "BSD",
-  "gitHead": "90fd58e343c29e54fc1d4e19036595500b2bdc21"
+  "author": "Bret Fontecchio"
 }
