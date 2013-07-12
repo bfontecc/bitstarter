@@ -1,6 +1,6 @@
 var express 	= require('express');
 var fs 		= require('fs');
-var app = express();
+var app 	= express();
 
 app.get('/', function(request, response) {
     var body_view = fs.readFileSync('./index.html', 'ascii' ,function(err, data) {
